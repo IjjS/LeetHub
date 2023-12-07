@@ -271,7 +271,7 @@ const upload = (
   cb = undefined,
 ) => {
   // To validate user, load user object from GitHub.
-  const URL = `https://api.github.com/repos/${hook}/contents/LeetCode${directory}/${filename}`;
+  const URL = `https://api.github.com/repos/${hook}/contents/LeetCode/${directory}/${filename}`;
 
   /* Define Payload */
   let data = {
